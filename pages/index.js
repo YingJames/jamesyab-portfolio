@@ -1,11 +1,16 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
-
+import Head from 'next/head';
+import Image from 'next/image';
+import { Inter } from 'next/font/google';
+import styles from '@/styles/Home.module.css';
+// import { Navbar } from '@/components/Navbar';
+import { Navigation } from '@/components/Navigation';
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  function handleClick(e) {
+    console.log('The link was clicked.', e);
+  }
+
   return (
     <>
       <Head>
@@ -16,17 +21,8 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <header className={styles.header}>
-          <nav className={styles.nav}>
-            <ul className={styles.ul}>
-              <li className={styles.li}>
-                <a href="#" className={styles.a}>
-                  <Image src="vercel.svg" alt="logo" width={100} height={100} />
-                </a>
-              </li>
-              <li className={styles.li}></li>
-              <li className={styles.li}></li>
-            </ul>
-          </nav>
+
+        <Navigation />
         </header>
       </main>
     </>
