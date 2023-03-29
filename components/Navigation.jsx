@@ -1,5 +1,6 @@
 import { Navbar } from 'flowbite-react';
 import Image from 'next/image';
+import Link from 'next/link';
 export function Navigation() {
     return (
         <Navbar
@@ -8,9 +9,9 @@ export function Navigation() {
         className="m-6 
           border-b border-black"
       >
-        <a href="/">
+        <Link href="/">
           <Image src="logo.svg" alt="james yab logo" width={52} height={24} />
-        </a>
+        </Link>
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Navbar.Link
