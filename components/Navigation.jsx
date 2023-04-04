@@ -6,8 +6,9 @@ export function Navigation() {
         <Navbar
         fluid={true}
         rounded={false}
-        className="m-6 
-          border-b border-black"
+        className="mb-6
+          border-b border-gray-800
+          font-sans"
       >
         <Link href="/">
           <Image src="logo.svg" alt="james yab logo" width={52} height={24} />
@@ -17,6 +18,7 @@ export function Navigation() {
           <Navbar.Link
             href="/"
             active={false}
+            
           >
             Home
           </Navbar.Link>
