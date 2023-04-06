@@ -1,0 +1,26 @@
+.hero {
+    padding: 0 2rem;
+    display: grid;
+  }
+
+/* Applies to larger screen */
+@media screen(sm) {
+    .hero {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: min-content 1fr;
+    }
+    .hero--portrait-container {
+        grid-row: 1 / 3;
+    }
+
+}
+
+.my-description {
+    max-width: 30rem;
+    margin: 1.5rem 0;
+
+  }
+
+.highlight {
+    color: #5B7318;
+}

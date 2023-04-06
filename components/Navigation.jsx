@@ -18,7 +18,7 @@ export function Navigation() {
           <Navbar.Link
             href="/"
             active={false}
-            
+
           >
             Home
           </Navbar.Link>

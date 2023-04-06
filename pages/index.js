@@ -20,10 +20,30 @@ export default function Home() {
         <header className={styles.header}>
         <Navigation />
         </header>
-        <div className="hero">
-          <h1 className="title">I&apos;m <br></br>James Yab</h1>
-          <sub className="subtitle">Frontend Web Developer and <br></br>Software Engineer</sub>
-          <p>I am passionate about creating engaging and user-friendly experiences that meet the needs of  users.</p>
+        <div className={styles.hero}>
+          {/* Hero Container */}
+          <div className={styles["hero--title-container"]}>
+            <h1 className="title">I&apos;m <span className={styles.highlight}><br></br>James Yab</span></h1>
+            <h2 className="subtitle">Frontend Web Developer and <br></br>Software Engineer</h2>
+          </div>
+
+          {/* Portrait Container */}
+          <div className={styles["hero--portrait-container"]}>
+            <Image className="rounded-md" src="/profile.png" alt="James Yab" width={200} height={200} />
+          </div> 
+
+          {/* Description Container */}
+          <div className={styles["hero--desc-container"]}>
+            <div className={styles["my-description"]}>
+              <p><span className="dropcap">I</span> am passionate about creating engaging and user-friendly experiences that meet the needs of  users.</p>
+              <p>&emsp;I have 2 years of experience as a Freelance Web developer, working with Webflow. I have experience in Python, React, Next.js, and C</p>
+            </div>
+
+            <div class={styles["call-to-work"]}>
+              <a href="#work"><Button size="md">Explore my work</Button></a>
+            </div>
+          </div>
+
         </div>
       </main>
     </>
