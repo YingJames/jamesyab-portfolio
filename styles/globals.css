@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .font-sans {
-  font-family: "Nure", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 html {
   box-sizing: border-box;
@@ -15,6 +15,7 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  font-family: 'nure-variable';
   margin: 0;
   padding: 0;
   font-weight: normal;
@@ -36,23 +37,46 @@ main {
 }
 
 .title {
-  font-family: Nure;
+  font-variation-settings: "wght" 800;
   font-size: 2.25rem;
-  font-weight: 700;
   line-height: 2rem;
-  letter-spacing: 0em;
 }
 
 .subtitle {
-  font-family: 'Nure';
-  font-weight: 100;
+  font-variation-settings: "wght" 200;
   font-size: 16px;
   line-height: 1rem;
   margin: 0.5rem 0;
 }
 
+.section--container {
+  margin-bottom: 3rem;
+}
+
+.section--title {
+  font-family: 'nure-variable', sans-serif;
+  /* font-weight: 300; */
+  font-size: 1.5rem;
+  font-variation-settings: 'opsz' 72, 'wdth' 125, 'wght' 300;
+}
+
+.section--title::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #000;
+  margin-bottom: 0.8rem;
+}
+
+.work--title {
+  font-family: 'nure-variable', sans-serif;
+  font-size: 1.2rem;
+  font-variation-settings: 'opsz' 72, 'wdth' 125, 'wght' 100;
+  margin-bottom: 0.9rem;
+}
+
 p {
-  font-family: Nure;
   font-size: 1.05rem;
   font-weight: 400;
   line-height: 105%;
@@ -68,4 +92,10 @@ p {
   font-weight: 400;
   color: #B02B2B;
   margin-right: 0.8rem;
+}
+
+footer {
+  font-family: "nure-variable",sans-serif;
+  font-variation-settings: 'opsz' 72, 'wdth' 100, 'wght' 400;
+  margin: 1rem 1.5rem;
 }
