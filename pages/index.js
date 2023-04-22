@@ -2,13 +2,13 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from '@/styles/Home.module.css';
-import { Navigation } from '@/components/Navigation';
+import Navigation from '@/components/Navigation';
 import { Button } from 'flowbite-react';
+import Footer from '@/components/Footer';
 
+import HeroSection from '@/components/HomeSections/HeroSection';
+import AboutSection from '@/components/HomeSections/AboutSection';
 export default function Home() {
-  function handleClick(e) {
-    console.log('The link was clicked.', e);
-  }
 
   return (
     <>
@@ -23,36 +23,14 @@ export default function Home() {
         <header className={styles.header}>
         <Navigation />
         </header>
-        <div className={styles.hero}>
-          {/* Hero Container */}
-          <div className={styles["hero--title-container"]}>
-            <h1 className="title">I&apos;m <span className={styles.highlight}><br></br>James Yab</span></h1>
-            <h2 className="subtitle">Frontend Web Developer and <br></br>Software Engineer</h2>
-          </div>
-
-          {/* Portrait Container */}
-          <div className={styles["hero--portrait-container"]}>
-            <Image className="rounded-md" src="/profile.png" alt="James Yab" width={200} height={200} />
-          </div> 
-
-          {/* Description Container */}
-          <div className={styles["hero--desc-container"]}>
-            <div className={styles["my-description"]}>
-              <p><span className="dropcap">I</span> am passionate about creating engaging and user-friendly experiences that meet the needs of  users.</p>
-              <p>&emsp;I have 2 years of experience as a Freelance Web developer, working with Webflow. I have experience in Python, React, Next.js, and C</p>
-            </div>
-
-            <div class={styles["call-to-work"]}>
-              <Link href="/contact"><Button size="md">Contact me</Button></Link>
-            </div>
-          </div>
-
-        </div>
-
-        <div className="section--container">
+        <HeroSection />
+        <AboutSection />
+        <div id="work" className="section--container">
           <h2 className="section--title">Work</h2>
           <h3 className="work--title">Jasmine Yab Photography</h3>
-          <Image src="/work1.png" alt="Jasmine Yab Photography" width={500} height={300} />
+          <Link href="/work/jyphoto">
+            <Image src="/work1.png" alt="Jasmine Yab Photography" width={500} height={300} />
+          </Link>
         </div>
         <div className={styles["section--container"]}>
           <h2 className="section--title">Personal Project</h2>
@@ -60,7 +38,7 @@ export default function Home() {
           <Image src="/zapchat.png" alt="ZapChat" width={500} height={300} />
         </div>
       </main>
-      <footer>Made by James Yab. Circa 2023.</footer>
+      <Footer />
     </>
   )
 }

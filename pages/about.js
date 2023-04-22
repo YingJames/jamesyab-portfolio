@@ -2,8 +2,8 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from '@/styles/About.module.css';
-import { Navigation } from '@/components/Navigation';
-import { Button } from 'flowbite-react';
+import Navigation from '@/components/Navigation';
+import Footer from '@/components/Footer';
 
 export default function About() {
     return (
@@ -18,12 +18,11 @@ export default function About() {
         <main>
             <Navigation />
             <h1 className="title">About <br></br><span className={styles.highlight}>James Yab</span></h1>
-            <p>&emsp;I’m a B.S.C.S. sophomore at the University of South Florida currently looking for an internship opportunity.  Whether I’m working on new projects or playing video games, I like to spend quite a lot of time looking at a screen.</p>
+            <p>&emsp;I’m a B.S.C.S. junior at the University of South Florida currently looking for an internship opportunity.  Whether I’m working on new projects or playing video games, I like to spend quite a lot of time looking at a screen.</p>
 
-            <p>&emsp;When i’m not looking at a screen, I’m stuffing my face with food or exploring around to find new cuisine to stuff my face with food😅. </p>
+            <p>&emsp;When I’m not looking at a screen, I’m stuffing my face with food or exploring around to find even more food.</p>
         </main>
-      
-       
+        <Footer />
     </>
     )
 }
