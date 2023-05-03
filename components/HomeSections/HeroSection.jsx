@@ -2,6 +2,7 @@ import styles from '@/styles/Home.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from 'flowbite-react';
+import profilePic from '@/public/profile.png';
 
 export default function HeroSection() {
     return (
@@ -15,7 +16,7 @@ export default function HeroSection() {
 
             {/* Portrait Container */}
             <div className={styles["hero--portrait-container"]}>
-                <Image className="rounded-md" src="/profile.png" alt="James Yab" width={200} height={200} />
+                <Image className="rounded-md" src={profilePic} alt="James Yab" width={200} height={200} />
             </div>
 
             {/* Description Container */}
@@ -25,7 +26,7 @@ export default function HeroSection() {
                     <p>&emsp;I have 2 years of experience as a Freelance Web developer, working with Webflow. I have experience in Python, React, Next.js, and C</p>
                 </div>
 
-                <div class={styles["call-to-work"]}>
+                <div className={styles["call-to-work"]}>
                     <Link href="/contact"><Button size="md">Contact me</Button></Link>
                 </div>
             </div>
