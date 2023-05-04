@@ -31,7 +31,7 @@ export default function Zapchat() {
         Zapchat is a web application that allows users to communicate with each other in real-time. Users can create accounts and send messages to other users. The application was developed as a personal project to learn more about React.js and Firebase. The application was developed over the course of a few weeks, and was deployed using Firebase Hosting.The application utilizes Firebase for authentication and database management.
         </p>
         <p className="section--paragraph">
-            This video demonstrates the application's messaging functionality. The video was recorded using the application's development environment.
+            This video demonstrates the application&apos;s messaging functionality. The video was recorded using the application&apos;s development environment.
         </p>
         <video className="section--video" controls>
             <source src="https://user-images.githubusercontent.com/21976362/219696671-53b776a0-3433-4b53-a104-2fbca6ded26f.mp4" type="video/mp4" />
