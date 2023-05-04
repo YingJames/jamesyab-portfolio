@@ -28,7 +28,7 @@ export default function JYPhoto() {
       <section className="section--container">
         <h2 className="section--title">Overview</h2>
         <p className="section--paragraph">
-        Throughout the course of this project, I collaborated with my sibling in order to develop a website for her wedding photography enterprise. Her primary objective was to establish a visually appealing platform that could display her portfolio of work, while simultaneously providing a means for prospective clients to contact her. Additionally, she expressed a desire for the ability to personally manage website updates. To accomplish these objectives, I undertook the responsibility of designing and implementing the site's themes, pages, and blog layouts, utilizing the Webflow CMS. Additionally, I integrated an Instagram feed by utilizing Zapier, which facilitated the automatic updates of her most recent Instagram posts to the website.
+        Throughout the course of this project, I collaborated with my sibling in order to develop a website for her wedding photography enterprise. Her primary objective was to establish a visually appealing platform that could display her portfolio of work, while simultaneously providing a means for prospective clients to contact her. Additionally, she expressed a desire for the ability to personally manage website updates. To accomplish these objectives, I undertook the responsibility of designing and implementing the site&apos;s themes, pages, and blog layouts, utilizing the Webflow CMS. Additionally, I integrated an Instagram feed by utilizing Zapier, which facilitated the automatic updates of her most recent Instagram posts to the website.
         </p>
       </section>
       <section className="section--container">
