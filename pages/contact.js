@@ -13,7 +13,7 @@ export default function Contact() {
     return (
       <Button className="hover:underline my-3" size="md">
         
-        <Link target="_blank" href="/James Yab Resume.pdf" className="flex items-start">
+        <Link target="_blank" href="/James%20Resume.pdf" className="flex items-start">
        
           <HiDocumentSearch size={15} className="mr-1 -ml-1"/>
             View my resume
