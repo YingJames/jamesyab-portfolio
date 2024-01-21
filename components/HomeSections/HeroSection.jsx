@@ -23,7 +23,8 @@ export default function HeroSection() {
             <div className={styles["hero--desc-container"]}>
                 <div className={styles["my-description"]}>
                     <p><span className="dropcap">I</span> am passionate about creating engaging and user-friendly experiences that meet the needs of  users.</p>
-                    <p>&emsp;I have 2 years of experience as a Freelance Web developer, working with Webflow. I have experience in Python, React, Next.js, and C</p>
+                    <p>&emsp;I have experience using JavaScript/Typescript, Visual Studio C# for Windows Forms, CUDA C/C++, as well as the Webflow WYSIWYG platform.
+                        </p>
                 </div>
 
                 <div className={styles["call-to-work"]}>
