@@ -36,7 +36,7 @@ export default function Home() {
           </Link>
         </div>
         <div className={styles["section--container"]}>
-          <h2 className="section--title">Personal Project</h2>
+          <h2 className="section--title">Projects</h2>
           <h3 className="work--title">ZapChat</h3>
           <Link href="/work/zapchat">
             <Image src={zapchatPic} alt="ZapChat" width={500} height={300} />
