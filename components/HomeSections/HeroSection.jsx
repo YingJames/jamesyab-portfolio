@@ -11,7 +11,7 @@ export default function HeroSection() {
             {/* Hero Container */}
             <div className={styles["hero--title-container"]}>
                 <h1 className="title">I&apos;m <span className={styles.highlight}><br></br>James Yab</span></h1>
-                <h2 className="subtitle">Frontend Web Developer and <br></br>Software Engineer</h2>
+                <h2 className="subtitle">Web Developer and <br></br>Software Engineer</h2>
             </div>
 
             {/* Portrait Container */}
@@ -22,8 +22,8 @@ export default function HeroSection() {
             {/* Description Container */}
             <div className={styles["hero--desc-container"]}>
                 <div className={styles["my-description"]}>
-                    <p><span className="dropcap">I</span> am passionate about creating engaging and user-friendly experiences that meet the needs of  users.</p>
-                    <p>&emsp;I have experience using JavaScript/Typescript, Visual Studio C# for Windows Forms, CUDA C/C++, as well as the Webflow WYSIWYG platform.
+                    <p><span className="dropcap">I</span> am passionate about creating engaging and user-friendly experiences that meet the needs of users.</p>
+                    <p>I am always looking to learn new technologies, improve my skills, and find new opportunities to work on exciting projects.
                         </p>
                 </div>
 
