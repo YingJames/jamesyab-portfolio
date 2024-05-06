@@ -40,7 +40,7 @@ export default function Home() {
               <a href="https://jasmine-yab.com/" target="_blank">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Jasmine Yab Photography</h5>
               </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Designed and developed a visually captivating wedding photography website through UI/UX principles using Webflow and later transitioned to ShowIt, accurately translating the client's vision into an engaging user experience optimized for an intuitive online presence.</p>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Designed and developed a visually captivating wedding photography website through UI/UX principles using Webflow and later transitioned to ShowIt, accurately translating the client&apos;s vision into an engaging user experience optimized for an intuitive online presence.</p>
               <a href="https://jasmine-yab.com/" target="_blank" class="inline-flex font-medium items-center text-blue-600 hover:underline">
                 Website Link
                 <svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
