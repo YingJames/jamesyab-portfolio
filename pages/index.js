@@ -11,6 +11,7 @@ import AboutSection from '@/components/HomeSections/AboutSection';
 
 import zapchatPic from '@/public/zapchat.png';
 import jyphotoPic from '@/public/work1.png';
+import usfSoarPic from '@/public/usfsoar_cover.jpeg';
 
 export default function Home() {
 
@@ -24,23 +25,52 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <header className={styles.header}>
-        <Navigation />
+          <Navigation />
         </header>
         <HeroSection />
         <AboutSection />
         <div id="work" className="section--container">
           <h2 className="section--title">Work</h2>
-          <h3 className="work--title">Jasmine Yab Photography</h3>
-          <Link href="/work/jyphoto">
-            <Image src={jyphotoPic} alt="Jasmine Yab Photography" width={500} height={300} />
-          </Link>
+          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="https://jasmine-yab.com/" target="_blank">
+              <Image className="rounded-t-lg" src={jyphotoPic} alt="Jasmine Yab Photography" width={500} height={300} />
+            </a>
+            <div class="p-5">
+              <a href="https://jasmine-yab.com/" target="_blank">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Jasmine Yab Photography</h5>
+              </a>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Designed and developed a visually captivating wedding photography website through UI/UX principles using Webflow and later transitioned to ShowIt, accurately translating the client's vision into an engaging user experience optimized for an intuitive online presence.</p>
+              <a href="https://jasmine-yab.com/" target="_blank" class="inline-flex font-medium items-center text-blue-600 hover:underline">
+                Website Link
+                <svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778" />
+                </svg>
+              </a>
+            </div>
+          </div>
         </div>
         <div className={styles["section--container"]}>
           <h2 className="section--title">Projects</h2>
-          <h3 className="work--title">ZapChat</h3>
-          <Link href="/work/zapchat">
-            <Image src={zapchatPic} alt="ZapChat" width={500} height={300} />
-          </Link>
+          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="https://github.com/usfsoar/NSL_23-24_PayloadEECS" target="_blank">
+              <Image className="rounded-t-lg" src={usfSoarPic} alt="USF SOAR" width={500} height={300} />
+            </a>
+            <div class="p-5">
+              <a href="https://github.com/usfsoar/NSL_23-24_PayloadEECS" target="_blank">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">USF SOAR - NASA Student Launch Program</h5>
+              </a>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">As a member of the multidisciplinary team for the NASA Student Launch program,
+                I actively collaborated through issue tracking, contributing code fixes, enhancements, and feature requests for
+                the Arduino embedded C++ code and Python ground station frontend.</p>
+              <a href="https://github.com/usfsoar/NSL_23-24_PayloadEECS" target="_blank" class="inline-flex font-medium items-center text-blue-600 hover:underline">
+                Github Repo
+                <svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
         </div>
       </main>
       <Footer />
