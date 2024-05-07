@@ -9,7 +9,7 @@ import Footer from '@/components/Footer';
 import HeroSection from '@/components/HomeSections/HeroSection';
 import AboutSection from '@/components/HomeSections/AboutSection';
 
-import zapchatPic from '@/public/project_images/zapchat.png';
+import githubLogo from '@/public/github-mark.svg'
 import jyphotoPic from '@/public/project_images/jyab_photo.png';
 import usfSoarPic from '@/public/project_images/usfsoar_cover.jpeg';
 import stockAnalyzerPic from '@/public/project_images/stock_analyzer.svg';
@@ -54,6 +54,41 @@ export default function Home() {
         </div>
         <div className={styles["section--container"]}>
           <h2 className="section--title">Projects</h2>
+
+
+          <div
+              className="max-w p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <Image className="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3" src={githubLogo} alt={"github logo"}/>
+            <Image
+              className="w-28 h-28 mb-2 rounded-full border-4 border-black"
+              src={"https://github.com/YingJames.png"}
+              alt={"github profile image"}
+              width={100}
+              height={100}
+              unoptimized
+            />
+            <a href="#">
+              <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Check out my Github!</h5>
+            </a>
+            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">I have other projects too, showcasing my skills in various areas like web development, as well as lower level systems level programming like when making
+              <a
+                href={"https://github.com/YingJames/the-rapid-unix-shell"}
+                className="font-medium items-center text-blue-600 hover:underline"
+              > my RUSH shell program
+              </a> written in C.
+            </p>
+            <p>Please don&apos;t complain if my code looks like this: 🍝</p>
+            <a href="https://force-graph-generator.netlify.app/" target="_blank"
+               className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              My Github Profile
+              <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                   fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                      d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+            </a>
+          </div>
+
           <div
               className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="https://github.com/usfsoar/NSL_23-24_PayloadEECS" target="_blank">
@@ -133,7 +168,6 @@ export default function Home() {
               </a>
             </div>
           </div>
-
 
 
           <div
