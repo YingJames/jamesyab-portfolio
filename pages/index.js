@@ -33,19 +33,19 @@ export default function Home() {
         <AboutSection />
         <div id="work" className="section--container">
           <h2 className="section--title">Work</h2>
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="https://jasmine-yab.com/" target="_blank">
               <Image className="rounded-t-lg" src={jyphotoPic} alt="Jasmine Yab Photography" width={500} height={300} />
             </a>
-            <div class="p-5">
+            <div className="p-5">
               <a href="https://jasmine-yab.com/" target="_blank">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Jasmine Yab Photography</h5>
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Jasmine Yab Photography</h5>
               </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Designed and developed a visually captivating wedding photography website through UI/UX principles using Webflow and later transitioned to ShowIt, accurately translating the client&apos;s vision into an engaging user experience optimized for an intuitive online presence.</p>
-              <a href="https://jasmine-yab.com/" target="_blank" class="inline-flex font-medium items-center text-blue-600 hover:underline">
+              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Designed and developed a visually captivating wedding photography website through UI/UX principles using Webflow and later transitioned to ShowIt, accurately translating the client&apos;s vision into an engaging user experience optimized for an intuitive online presence.</p>
+              <a href="https://jasmine-yab.com/" target="_blank" className="inline-flex font-medium items-center text-blue-600 hover:underline">
                 Website Link
-                <svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778" />
+                <svg className="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778" />
                 </svg>
               </a>
             </div>
@@ -53,21 +53,21 @@ export default function Home() {
         </div>
         <div className={styles["section--container"]}>
           <h2 className="section--title">Projects</h2>
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="https://github.com/usfsoar/NSL_23-24_PayloadEECS" target="_blank">
               <Image className="rounded-t-lg" src={usfSoarPic} alt="USF SOAR" width={500} height={300} />
             </a>
-            <div class="p-5">
+            <div className="p-5">
               <a href="https://github.com/usfsoar/NSL_23-24_PayloadEECS" target="_blank">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">USF SOAR - NASA Student Launch Program</h5>
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">USF SOAR - NASA Student Launch Program</h5>
               </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">As a member of the multidisciplinary team for the NASA Student Launch program,
+              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">As a member of the multidisciplinary team for the NASA Student Launch program,
                 I actively collaborated through issue tracking, contributing code fixes, enhancements, and feature requests for
                 the Arduino embedded C++ code and Python ground station frontend.</p>
-              <a href="https://github.com/usfsoar/NSL_23-24_PayloadEECS" target="_blank" class="inline-flex font-medium items-center text-blue-600 hover:underline">
+              <a href="https://github.com/usfsoar/NSL_23-24_PayloadEECS" target="_blank" className="inline-flex font-medium items-center text-blue-600 hover:underline">
                 Github Repo
-                <svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778" />
+                <svg className="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778" />
                 </svg>
               </a>
             </div>
@@ -76,20 +76,20 @@ export default function Home() {
 
 
 
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="https://github.com/YingJames/StockAnalyzer" target="_blank">
               <Image className="rounded-t-lg" src={stockAnalyzerPic} alt="Stock Analyzer" width={500} height={300} />
             </a>
-            <div class="p-5">
+            <div className="p-5">
               <a href="https://github.com/YingJames/StockAnalyzer" target="_blank">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Stock Analyzer</h5>
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Stock Analyzer</h5>
               </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">The application wasbuilt using .NET C# and Windows Form UI Component Library
+              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">The application was built using .NET C# and Windows Form UI Component Library
                 The application allows analyzing and visualizing stock data to identify candlestick patterns. </p>
-              <a href="https://github.com/YingJames/StockAnalyzer" target="_blank" class="inline-flex font-medium items-center text-blue-600 hover:underline">
+              <a href="https://github.com/YingJames/StockAnalyzer" target="_blank" className="inline-flex font-medium items-center text-blue-600 hover:underline">
                 Github Repo
-                <svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778" />
+                <svg className="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778" />
                 </svg>
               </a>
             </div>
@@ -97,21 +97,21 @@ export default function Home() {
 
 
 
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="https://github.com/YingJames/the-rapid-unix-shell" target="_blank">
               <Image className="rounded-t-lg" src={rushPic} alt="RUSH" width={500} height={300} />
             </a>
-            <div class="p-5">
+            <div className="p-5">
               <a href="https://github.com/YingJames/the-rapid-unix-shell" target="_blank">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">The Rapid Unix Shell</h5>
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">The Rapid Unix Shell</h5>
               </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">RUSH is a custom Unix shell implementation designed for a Unix-based system.
+              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">RUSH is a custom Unix shell implementation designed for a Unix-based system.
                 This project aims to implement basic shell functionalities, including parallel execution, handling built-in commands, and managing command execution paths.
               </p>
-              <a href="https://github.com/YingJames/the-rapid-unix-shell" target="_blank" class="inline-flex font-medium items-center text-blue-600 hover:underline">
+              <a href="https://github.com/YingJames/the-rapid-unix-shell" target="_blank" className="inline-flex font-medium items-center text-blue-600 hover:underline">
                 Github Repo
-                <svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778" />
+                <svg className="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778" />
                 </svg>
               </a>
             </div>
