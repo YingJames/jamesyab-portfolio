@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from '@/styles/jyphoto.module.css';
 import Navigation from '@/components/Navigation';
-import zapchatPhoto from '@/public/zapchat.png';
+import zapchatPhoto from '@/public/project_images/zapchat.png';
 import { BiLinkAlt } from 'react-icons/bi';
 
 export default function Zapchat() {

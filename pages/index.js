@@ -9,12 +9,12 @@ import Footer from '@/components/Footer';
 import HeroSection from '@/components/HomeSections/HeroSection';
 import AboutSection from '@/components/HomeSections/AboutSection';
 
-import zapchatPic from '@/public/zapchat.png';
-import jyphotoPic from '@/public/work1.png';
-import usfSoarPic from '@/public/usfsoar_cover.jpeg';
-import stockAnalyzerPic from '@/public/StockAnalyzer.svg';
-import rushPic from '@/public/the-rapid-unix-shell.svg';
-import forceGraphPic from '@/public/ForceGraphGenerator.svg'
+import zapchatPic from '@/public/project_images/zapchat.png';
+import jyphotoPic from '@/public/project_images/jyab_photo.png';
+import usfSoarPic from '@/public/project_images/usfsoar_cover.jpeg';
+import stockAnalyzerPic from '@/public/project_images/stock_analyzer.svg';
+import rushPic from '@/public/project_images/rush.svg';
+import forceGraphPic from '@/public/project_images/force_graph_generator.svg'
 
 export default function Home() {
 
