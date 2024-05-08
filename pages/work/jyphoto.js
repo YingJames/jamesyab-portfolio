@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from '@/styles/jyphoto.module.css';
 import Navigation from '@/components/Navigation';
-import jyphoto from '@/public/work1.png';
+import jyphoto from '@/public/project_images/jyab_photo.png';
 import { BiLinkAlt } from 'react-icons/bi';
 
 export default function JYPhoto() {
