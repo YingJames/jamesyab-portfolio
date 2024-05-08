@@ -1,9 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import Link from 'next/link';
 import styles from '@/styles/Home.module.css';
 import Navigation from '@/components/Navigation';
-import { Button } from 'flowbite-react';
 import Footer from '@/components/Footer';
 
 import HeroSection from '@/components/HomeSections/HeroSection';
