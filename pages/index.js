@@ -32,9 +32,9 @@ export default function Home() {
         </header>
         <HeroSection />
         <AboutSection />
-        <div id="work" className="section--container">
+        <section id="work" className="section--container">
           <h2 className="section--title">Work</h2>
-          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <article className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="https://jasmine-yab.com/" target="_blank">
               <Image className="rounded-t-lg" src={jyphotoPic} alt="Jasmine Yab Photography" width={500} height={300} />
             </a>
@@ -50,13 +50,12 @@ export default function Home() {
                 </svg>
               </a>
             </div>
-          </div>
-        </div>
-        <div className={styles["section--container"]}>
+          </article>
+        </section>
+        <section className={styles["section--container"]}>
           <h2 className="section--title">Projects</h2>
 
-
-          <div
+          <article
               className="max-w p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <Image className="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3" src={githubLogo} alt={"github logo"}/>
             <Image
@@ -87,9 +86,10 @@ export default function Home() {
                       d="M1 5h12m0 0L9 1m4 4L9 9"/>
               </svg>
             </a>
-          </div>
+          </article>
 
-          <div
+          
+          <article
               className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="https://github.com/usfsoar/NSL_23-24_PayloadEECS" target="_blank">
               <Image className="rounded-t-lg" src={usfSoarPic} alt="USF SOAR" width={500} height={300}/>
@@ -114,10 +114,10 @@ export default function Home() {
                 </svg>
               </a>
             </div>
-          </div>
+          </article>
 
 
-          <div
+          <article
               className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="https://github.com/YingJames/StockAnalyzer" target="_blank">
               <Image className="rounded-t-lg" src={stockAnalyzerPic} alt="Stock Analyzer" width={500} height={300}/>
@@ -139,10 +139,10 @@ export default function Home() {
                 </svg>
               </a>
             </div>
-          </div>
+          </article>
 
 
-          <div
+          <article
               className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="https://github.com/YingJames/the-rapid-unix-shell" target="_blank">
               <Image className="rounded-t-lg" src={rushPic} alt="RUSH" width={500} height={300}/>
@@ -167,10 +167,10 @@ export default function Home() {
                 </svg>
               </a>
             </div>
-          </div>
+          </article>
 
 
-          <div
+          <article
               className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="https://github.com/YingJames/ForceGraphGenerator" target="_blank">
               <Image className="rounded-t-lg" src={forceGraphPic} alt="RUSH" width={500} height={300}/>
@@ -207,10 +207,10 @@ export default function Home() {
                 </a>
               </div>
             </div>
-          </div>
+          </article>
 
 
-        </div>
+        </section>
       </main>
       <Footer/>
     </>
